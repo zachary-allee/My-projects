@@ -1,5 +1,4 @@
 
-
 -- I found everything I needed in the game table and created a new table with just the values I need right now.
   
  CREATE TABLE possesion_analysis AS
