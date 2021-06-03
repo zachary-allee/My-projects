@@ -14,4 +14,4 @@ I thought possession was a tracked stat but I recently discovered that it is act
             * (Tm FGA - Tm FG) + Tm TOV) + (Opp FGA + 0.4 * Opp FTA - 1.07 * (Opp ORB / (Opp ORB + Tm DRB))
             *  (Opp FGA - Opp FG) + Opp TOV)).
       
-Okay now that I know what I am looking for I can execute a simple SQL query to pull everything I should need for my visualizations. You can find it [here](https://github.com/zachary-allee/My-projects/blob/main/pointsandpossesions.sql) in the repo.
+Okay now that I know what I am looking for I can execute a simple SQL query to pull everything I should need for my visualizations. You can find it [here]in the repo.
