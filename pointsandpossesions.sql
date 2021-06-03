@@ -1,5 +1,11 @@
-select GAME_ID, PTS_HOME, PTS_AWAY, PTS_HOME + PTS_AWAY as PTS_COMBINED,
-FGA_HOME, FGM_HOME, FGA_AWAY, FGM_AWAY, FTA_HOME, FTA_AWAY,
-OREB_HOME, DREB_HOME, OREB_AWAY, DREB_AWAY, TOV_HOME, TOV_AWAY, SEASON from game
-where season > 1984;
- 
+-- I found everything I needed in the game table and created a new table with just the values I need right now.
+  
+ CREATE TABLE possesion_analysis AS
+	SELECT game_id, pts_home, pts_away, 
+	pts_home + pts_away  AS pts_combined,
+	fga_home, fgm_home, fga_away, fgm_away,
+	fta_home, fta_away, ftm_home, ftm_away, 
+	oreb_home, dreb_home, oreb_away, dreb_away
+	tov_home, tov_away, season
+	FROM game
+	WHERE season > 1984
