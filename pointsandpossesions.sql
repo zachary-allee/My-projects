@@ -8,4 +8,5 @@
 	oreb_home, dreb_home, oreb_away, dreb_away
 	tov_home, tov_away, season
 	FROM game
-	WHERE season > 1984
+	WHERE season > 1984   		-- The NBA did not start recording all data needed until 1984
+
