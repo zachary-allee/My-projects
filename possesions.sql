@@ -1,5 +1,5 @@
 
--- I found everything I needed in the game table and created a new table with just the values I need right now.
+-- Everything needed for the calculations
   
  CREATE TABLE possesion_analysis AS
 	SELECT 
