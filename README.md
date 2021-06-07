@@ -15,3 +15,5 @@ I thought possession was a tracked stat but I recently discovered that it is act
             *  (Opp FGA - Opp FG) + Opp TOV)).
       
 Okay now that I know what I am looking for I can execute a simple [SQL query](https://github.com/zachary-allee/NBA-Visualizations/blob/main/possesions.sql) to pull everything I should need for my visualizations. I put the relevant data into a new table in case I need to come back and exported it as a .csv file.
+
+update soon probably!
